@@ -1,0 +1,14 @@
+@>You come upon a door. What do you do?
+    @Open the door. >The door doesn't budge.
+        @Knock on the door. >Bang. *02
+            @Jump back. >The door swings open, slamming into the wall behind it.
+                @Touch the door gingerly. >jmp03
+            @Brace yourself. >The door slams into you. You're dead.
+        @Try harder. >It opens with a thud.
+            @Enter the door. >A gloved hand grabs your mouth and a bag covers your head. Darkness consumes you.
+    @Look around the room. >There's a door in front of you. A dark hallway to your right, and a bright opening behind you.
+        @Knock on the door. >jmp02
+        @Go down the dark hallway. >You blindly feel your way down the hallway. Your hand touches something furry.
+        @Leave. >jmp01
+    @Leave. >You turn around and go home. *01
+        @Go to sleep. >You fall asleep peacefully.
